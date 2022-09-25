@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music-card</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <style>
+      .main-div {
+        background-color: white;
+        width: 450px;
+        border-radius: 20px;
+        position: relative;
+        margin: auto;
+        border: solid skyblue;
+        overflow: hidden;
+      }
+
+      .heading-1 {
+        color: #1f2e55;
+        width: 354px;
+        font-family: Red Hat Display;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 37px;
+        text-align: center;
+      }
+      .paragraph-1 {
+        color: #717fa6;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding: 24px;
+      }
+      .div-2 {
+        width: 354px;
+        left: 48px;
+        top: 417px;
+        border-radius: 11px;
+        display: flex;
+        background-color: #f7f9ff;
+        justify-content: space-around;
+      }
+      .music {
+        height: 48px;
+        width: 48px;
+        margin-top: 20px;
+      }
+      .plan {
+        color: #1f2e55;
+        font-family: Red Hat Display;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 21px;
+      }
+      .price {
+        color: #717fa6;
+        margin: 0;
+        font-size: 16px;
+      }
+      .change {
+        color: #382ae1;
+        text-align: center;
+      }
+      .payement {
+        background-color: #382ae1;
+        height: 50px;
+        width: 354px;
+        border-radius: 11px;
+        text-align: center;
+        border: none;
+        color: white;
+        font-size: 15px;
+        margin-top: 30px;
+      }
+      .cancel {
+        color: #717fa6;
+        font-family: Red Hat Display;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 20px;
+        text-align: center;
+      }
+      .content {
+        padding: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <img class="hero" src="illustration-hero.svg" alt="" />
+      <div class="content">
+        <h1 class="heading-1">Order Summary</h1>
+        <p class="paragraph-1">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="div-2">
+          <img class="music" src="icon-music.svg" alt="" />
+          <div>
+            <h1 class="plan">Annual Plan</h1>
+            <h2 class="price">$59.99/year</h2>
+          </div>
+          <h3 class="change">Change</h3>
+        </div>
+        <button class="payement">Proceed to Payment</button>
+        <p class="cancel">Cancel Order</p>
+      </div>
+    </div>
+  </body>
+</html>
